@@ -1,0 +1,15 @@
+Learning from my mistakes
+
+To install wine32:
+
+YOU NEED TO BE ROOT TO INSTALL wine32:i386 !
+
+sudo dpkg --add-architecture i386
+sudo apt update
+sudo apt install wine wine64 wine32 winbind winetricks
+
+Common errors:
+E: could not open lock file /var/lib/apt/lists/lock - open (13 permission denied)
+E: Unable to lock directory /var/lib/apt/lists
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin.f2FYUY - RemoveCaches (13: Permission denied)
